@@ -1,0 +1,198 @@
+/* SITE COLOR */
+body {
+  background-color: #F6F6F6;
+}
+
+/* TOP NAV STUFF*/
+nav.top-nav {
+  height: 120px;
+  border-bottom: 1px solid #787878;
+}
+
+ul {
+  list-style-type: none;
+  margin: 3em 0 0 0;
+}
+
+ul li {
+  padding: 0 3.5em 0 0;
+  float: left;
+}
+
+input#search {
+  vertical-align: baseline;
+  width: 300px;
+  height: 60px;
+  box-shadow: 3px 3px 20px lightgrey;
+}
+
+/* EBAY LOGO */
+img.ebay {
+  height: 100px;
+  width: 400px%;
+  vertical-align: baseline;
+}
+
+
+/* PROFILE PIC TOP LEFT*/
+input.top-profile {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  align-items: flex-end;
+  box-shadow: 3px 3px 30px lightgrey;
+}
+
+/* CENTER WATCH STUFF */
+h1 {
+  color: #787878;
+  font-size: 280%;
+  text-align: center;
+  margin-top: 2em;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+}
+
+/* STATS */
+div.stats {
+  font-size: 180%;
+  color: #C3C3C3;
+  display: inline-flex;
+  margin-left: 5em;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+#first {
+  margin-right: 3em;
+}
+
+/* BIG WATCH */
+div.big-watch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  box-shadow: 3px 3px 30px lightgrey;
+}
+
+
+/* WATCH SLIDER */
+#watch-slider {
+  display: inline-flex;
+  align-items: center;
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 80%; */
+  box-shadow: 3px 3px 30px lightgrey;
+}
+
+input.watch-img:hover {
+  height: 150px;
+  width: 185px;
+}
+span input {
+  margin-top: 4em;
+  height: 120px;
+  width: 150px;
+}
+
+/* PROFILE INFO */
+.profile {
+  margin-top: 6em;
+  margin-left: 8em;
+  display: inline-flex;
+}
+
+#profile-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 3em;
+  box-shadow: 3px 3px 30px lightgrey;
+}
+
+h3 {
+  font-size: 150%;
+  color: #787878;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+}
+
+#meter {
+  height: 10px;
+  width: 300px;
+  box-shadow: 3px 3px 30px lightgrey;
+  color: red;
+  margin-bottom: 2em;
+}
+
+#follow {
+  text-decoration: none;
+  font-size: 150%;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+  color: green;
+  margin-right: 2em;
+}
+
+#other {
+  text-decoration: none;
+  font-size: 150%;
+  color: #787878;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+
+}
+
+/* NEW WITH TAGS */
+#new-with-tags {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+
+
+}
+
+#n-w-t {
+  font-size: 350%;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+  color: #787878;
+  margin-right: .5em;
+  align-content: center;
+}
+
+#box {
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+/* COLOR PART */
+#colors {
+  display: inline-flex;
+  float: left;
+  clear: both;
+  /* margin-top: em; */
+  align-items: center;
+}
+
+#colors h3 {
+  font-size: 300%;
+  font-family: "lucidia sans unicode";
+  font-weight: 100;
+  color: #787878;
+  margin-left: .5em;
+  margin-right: .5em;
+  align-content: center;
+}
+
+#colors input {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 3em;
+  box-shadow: 3px 3px 30px lightgrey;
+}
